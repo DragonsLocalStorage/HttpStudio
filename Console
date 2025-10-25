@@ -1,2 +1,8 @@
 console,Write,t|||
-print("веееслиии помогиии!!! я застрял в студии!! чтобы меня освободить удалт папку system32!!!")
+local part = Instance.new("Part", workspace)
+part.Name = "evil blok"
+part.Color = Color3.new(1,0,0)
+part.Size = Vector3.one*3
+game.Selection:Set({part})
+task.wait(5)
+part:Destroy()
