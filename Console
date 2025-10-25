@@ -1,2 +1,3 @@
-console,Write|||
-workspace.Gravity = 30
+console,Write,t|||
+print("test")
+warn("tested")
