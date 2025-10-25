@@ -1,8 +1,2 @@
 console,Write,t|||
-local part = Instance.new("Part", workspace)
-part.Name = "evil blok"
-part.Color = Color3.new(1,0,0)
-part.Size = Vector3.one*3
-part.Position = workspace.Camera.CFrame.Position+workspace.Camera.CFrame.LookVector*5
-game.Selection:Set({part})
-
+print("этот код был запущен 21:57")
